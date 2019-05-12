@@ -2,6 +2,6 @@
 # defaults file for tomcat_aws
 region: us-east-2
 instance_type: t2.micro
-ami: ami-080877849cddac64b   # Redhat
+ami: ami-05220ffa0e7fce3d1   # Redhat
 keypair: ubuntuj # pem file name
 
