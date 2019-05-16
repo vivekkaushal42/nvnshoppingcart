@@ -3,16 +3,16 @@
     key_name: "{{ keypair }}"
     aws_access_key: "{{ aws_access }}"
     aws_secret_key: "{{ aws_secret }}"
-    group: launch-wizard-22  # security group name
+    group: launch-wizard-23  # security group name
     instance_type: "{{ instance_type}}"
     image: "{{ ami }}"
     wait: true
     region: "{{ region }}"
     count: 1  # default
     count_tag:
-      Name: "Demo"
+      Name: "vivek"
     instance_tags:
-      Name: "Demo"
+      Name: "vivek"
     vpc_subnet_id: "subnet-47e9370b"
     assign_public_ip: yes
   register: ec2
