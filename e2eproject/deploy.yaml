@@ -18,7 +18,7 @@
   tasks:
   
   - copy:
-      src: var/lib/jenkins/workspace/shoppingcart1/nvnshoppingcart/target/nvnshoppingcart.war
+      src: /usr/share/maven3/nvnshoppingcart/target/nvnshoppingcart.war
       dest: /usr/local/apache-tomcat-8.0.23/webapps/
       mode: 0777
       owner: root
